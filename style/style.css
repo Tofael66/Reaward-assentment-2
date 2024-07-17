@@ -9,3 +9,148 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
+/* default style */
+*{
+
+    margin: 0;
+}
+
+
+
+
+/* default style end */
+
+.nav-title{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.list-title{
+    font-size: 1.3rem;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.ul-section{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.dark-1{
+    color: rgba(19, 19, 24, 1);
+}
+
+.gray-1{
+    color: #FF5400;
+}
+
+.nav-container{
+    margin-bottom: 80px;
+}
+
+.ul-section{
+    font-weight: 700;
+    color: rgb(4);
+}
+
+/* banner section start */
+
+.banner-container{
+   margin-top: 60px;
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 500px;
+background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.8) 0%,
+
+rgba(19, 19, 24, 0) 100%
+),
+url(../Images/Group\ 13\ \(1\)\ \(1\).png)
+;
+    background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .search-btn{
+    color: white;
+} */
+
+.travel-input{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 50px;
+  margin-top: 2rem;
+  border-radius: 8px;
+  background: rgba(148, 141, 141, 0.5);
+  padding: 1rem;
+gap: 20px;
+backdrop-filter: blur(4px);
+    
+}
+  
+.input-name{
+    font-size: 1.3rem;
+    line-height: 26px;
+    border-radius: 5px;
+  width: 175px;
+  height: 50px ;
+  padding: 0, 0.5rem;
+  margin: 0 1rem;
+  border: none;
+  cursor: pointer;
+  color: rgb(158, 145, 145);
+
+}
+
+.red-btn{
+background-color: #FF5400;
+border: 1px solid  #FF5400;
+color: white;
+}
+
+.banner-image{
+    margin-top: 50px;
+}
+
+.banner-title{
+font-size: 4rem;
+font-weight: 800;
+color:white;
+
+}
+
+.banner-description{
+    font-size: 1rem;
+    max-width: 668px;
+    text-align: center;
+    color: rgb(236, 226, 226);
+ margin-top: 20px;
+ padding: 1.2rem;
+ margin: auto;
+ 
+
+}
+
+.banner-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* banner section end */
